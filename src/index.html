@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <script src="../node_modules/traceur/bin/traceur-runtime.js"></script>
+    <script src="../node_modules/systemjs/dist/system.src.js"></script>
+    <script src="../node_modules/angular2/bundles/angular2.dev.js"></script>
+  </head>
+  <body>
+    <display></display>
+    <script>
+      System.config({
+        packages: {'app': {defaultExtension: 'js'}}
+      });
+      System.import('app/FriendsService');
+      System.import('app/show-properties');
+//      System.import('app/app');
+    </script>
+    <display></display>
+  </body>
+</html>
