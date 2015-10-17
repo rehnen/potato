@@ -30,4 +30,3 @@ var DisplayComponent = (function () {
     return DisplayComponent;
 })();
 angular2_1.bootstrap(DisplayComponent, [FriendsService]);
-//# sourceMappingURL=show-properties.js.map
